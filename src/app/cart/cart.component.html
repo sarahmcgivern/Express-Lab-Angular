@@ -1,0 +1,13 @@
+<h1>My Grocery Cart</h1>
+<div class="button">
+    <button (click)="getAllItems()">See Cart</button>
+</div>
+<div class= "container">
+    <div class="items" *ngFor="let item of list">
+        <p>Id: {{ item.id }}</p>
+        <p>Product: {{ item.product }}</p>
+        <p>Price: {{ item.price | currency }}</p>
+        <p>Quantity: {{ item.quantity }}</p>
+    </div>
+</div>
+

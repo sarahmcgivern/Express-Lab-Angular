@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.items {
+    padding: 15px;
+}
+
+.button {
+    text-align: center;
+}
